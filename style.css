@@ -1,0 +1,96 @@
+body{ 
+	font-family: 'Red Hat Display', sans-serif;
+	text-align: center;
+	font-weight: 500;
+}
+p{
+	margin-top: 0;
+	font-size: 16px;
+	padding: 20px;
+}
+
+h2{
+	color: hsl(223, 47%, 23%);
+	font-weight: 900;
+	margin-bottom: 0;
+}
+h4{
+	margin-top:0; 
+	color: hsl(223, 47%, 23%);
+	font-weight: 900;
+}
+span{
+	margin:0 30px;
+}
+a{
+	font-weight: 700;
+}
+@media (max-width:375px){
+    body{
+	background-image: url("images/pattern-background-mobile.svg");                     
+    background-repeat: no-repeat; 
+}
+}
+
+@media (min-width:376px){
+    body{
+	background-image: url("images/pattern-background-desktop.svg");                      
+    background-repeat: no-repeat; 
+}
+}
+
+.workplace{
+	background-color: white;
+	max-width:375px;
+	border-radius:15px;
+	margin: auto;
+	padding-bottom: 20px;
+	
+}
+.illustration-hero{
+	width: 100%;
+	border-radius:15px 15px 0 0;
+}
+.annual-plan{
+	background-color: hsl(225, 100%, 98%);
+	margin :30px;
+	border-radius:15px;
+	padding: 20px;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+.money{
+	line-height: 0.5;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.change{
+	color: hsl(245, 75%, 52%);
+}
+.change:hover{
+	color: hsl(224, 23%, 55%)
+}
+.payment{
+	color: hsl(225, 100%, 98%);
+	background:  hsl(245, 75%, 52%);
+	margin: 0 30px 20px;;
+	padding: 15px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.payment:hover{
+	background-color: hsl(224, 23%, 55%); 
+}
+.cancel{
+	color:hsl(224, 23%, 55%);
+	text-decoration: none;
+}
+.cancel:hover{
+	color: hsl(223, 47%, 23%);
+}
+.attribution{
+	margin: 20px;
+}
