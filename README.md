@@ -25,8 +25,8 @@ Users should be able to:
 ![](images/ss.png)
 
 ### Links
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: ( https://tab21.github.io/Frontend-Mentor-HTML-CSS-coding-challenge-solution-Order-Summary/)
+- Solution URL: ( https://www.frontendmentor.io/solutions/order-summary-card-solution-using-html-and-css-odL8QDE8C )
+- Live Site URL: ( https://tab21.github.io/Frontend-Mentor-HTML-CSS-coding-challenge-solution-Order-Summary/ )
 
 ### Built with
 - HTML5
