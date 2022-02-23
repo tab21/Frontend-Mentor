@@ -13,5 +13,5 @@ Users should be able to:
 
 ### Links
 
-- [solution URL here](https://your-solution-url.com)
-- [live site URL here](https://your-live-site-url.com)
+- [solution URL here](https://www.frontendmentor.io/solutions/testimonials-using-css-grid-flex-BO8xHk9-8)
+- [live site URL here](https://github.com/tab21/Frontend-Mentor/tree/master/Testimonials-grid-section)
