@@ -1,0 +1,91 @@
+
+body{
+	background: url("images/bg-pattern-bottom.svg") right -300px bottom -650px no-repeat,url("images/bg-pattern-top.svg") top -580px left -330px no-repeat;
+	box-sizing: border-box;
+	padding: 8rem 0 0;
+	background-color: hsl(185, 75%, 39%);
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	background-blend-mode: overlay;
+	font-family: 'Kumbh Sans', sans-serif;
+	padding-bottom: 0;
+}
+
+/*main card components*/
+main {
+	background-color: white;
+	margin: auto;
+	position: relative;
+	width: 21rem;
+	border-radius: 1rem;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	margin-bottom: 7rem;
+}
+
+/*profile picture*/
+img{
+    background-size: contain;
+    border-radius: 50%;
+    border: 5px solid white;
+	background-repeat: no-repeat;
+    width: 100px;
+	margin: auto;
+	position: absolute;
+	z-index: 10;
+	left: 7rem;
+	top: 4rem;
+}
+
+h1,h2{
+	font-size: 18px;
+	font-weight: 700;
+	color: hsl(229, 23%, 23%);
+}
+
+h1{
+	margin-top:4.2rem;
+	margin-bottom: 6px;
+}
+h2{
+	margin: 0 ;
+}
+p{
+	padding:0;
+	margin: auto auto 15px;
+	font-weight: 400;
+	font-size: 12px;
+	color:  hsl(227, 10%, 46%);
+}
+hr{
+	color:hsl(0, 0%, 59%);
+	opacity: 30%;
+	margin: 20px 0 10px;
+}
+
+.upper-design{
+	background: url("images/bg-pattern-card.svg");
+	height:8rem;
+	overflow: hidden;
+	border-radius: 1rem 1rem 0 0;
+}
+/*statistics container*/
+.container {
+  	display: inline-flex;
+  	width: 100%;
+  	justify-content:center;
+	padding:0;
+}
+.stats{
+	margin: 10px 2rem ;
+}
+
+/*responsive*/
+@media only screen  and (max-width:600px){
+	body{
+		background: url("images/bg-pattern-bottom.svg") right -720px bottom -590px no-repeat,url("images/bg-pattern-top.svg") top -600px left -750px no-repeat;
+		background-color: hsl(185, 75%, 39%);
+	}
+}
