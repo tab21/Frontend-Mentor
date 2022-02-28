@@ -14,4 +14,4 @@ Users should be able to:
 ### Links
 
 - [solution URL here](https://www.frontendmentor.io/solutions/testimonials-using-css-grid-flex-BO8xHk9-8)
-- [live site URL here](https://github.com/tab21/Frontend-Mentor/tree/master/Testimonials-grid-section)
+- [live site URL here](https://tab21.github.io/Frontend-Mentor/Testimonials-grid-section/index.html)
