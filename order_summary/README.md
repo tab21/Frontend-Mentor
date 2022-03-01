@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: ( https://www.frontendmentor.io/solutions/order-summary-card-solution-using-html-and-css-odL8QDE8C )
-- Live Site URL: ( https://tab21.github.io/Frontend-Mentor-HTML-CSS-coding-challenge-solution-Order-Summary/ )
+- Live Site URL: ( https://tab21.github.io/Frontend-Mentor/order_summary/index.html )
 
 ### Built with
 - HTML5

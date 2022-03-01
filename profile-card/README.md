@@ -26,7 +26,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [solution on frontendmentor](https://www.frontendmentor.io/solutions/profile-card-using-html-and-css-fjvgDvYnH)
-- Live Site URL: [live site](https://tab21.github.io/profile-card-with-CSS-and-HTML/)
+- Live Site URL: [live site](https://tab21.github.io/Frontend-Mentor/profile-card/index.html)
 
 ### Built with
 
