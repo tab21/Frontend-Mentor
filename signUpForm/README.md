@@ -28,20 +28,20 @@ Users should be able to:
 
 - Screenshot for desktop preview
 
-![ss desktop](/images/desktopss.png)
+![ss desktop](images/desktopss.png)
 
 - Screenshot for mobile preview
 
-![ss mobile](/images/mobiless.png)
+![ss mobile](images/mobiless.png)
 
 - Screenshot for error messages
 
-![error messages](/images/interactiveStatess.png)
+![error messages](images/interactiveStatess.png)
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/sign-up-form-using-javascript-I7hIWJUH4)
+- Live Site URL: [live site URL here](https://tab21.github.io/Frontend-Mentor/signUpForm/index.html)
 
 ## Author
 
