@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" >
+</head>
+
+<body>
+  <div class="container">
+    <div class="cards left">
+      <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable. </p>
+    </div>
+
+    <div class="cards right">
+      <div class="trial"><span>Try it free 7 days</span> then $20/mo. thereafter</div>
+
+      <form name="signUpForm" onsubmit="return validate();">
+
+        <input type="text" placeholder="First Name" name="fname" >
+        <i class="fa-solid fa-circle-exclamation fa-xl"></i>
+        <div id="ffname" class="errors"></div>
+
+        <input type="text" placeholder="Last Name " name="lname" >
+        <i class="fa-solid fa-circle-exclamation fa-xl"></i>
+        <div id="flname" class="errors"></div>
+
+        <input type="text" placeholder="Email Address" name="email" class="" id="email">
+        <i class="fa-solid fa-circle-exclamation fa-xl"></i>
+        <div id="femail" class="errors"></div>
+
+        <input type="text" placeholder="Password" name="pass" >
+        <i class="fa-solid fa-circle-exclamation fa-xl"></i>
+        <div id="fpass" class="errors"></div>
+        
+        <button name="submit" type="submit" value="submit">CLAIM YOUR FREE TRIAL</button>
+
+        <div class="terms">
+          <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p class="attribution"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+        Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/tab21" target="_blank">Tab21</a> |10|. </p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
