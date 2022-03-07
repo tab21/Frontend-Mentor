@@ -35,7 +35,7 @@ Users should be able to:
 
 - Mobile Preview
 
-<img src="images/mobileSS.png" width="50%">
+<img src="images/mobileSS.png" width="30%">
 
 ### Links
 
