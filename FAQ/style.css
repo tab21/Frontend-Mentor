@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0 0 10%;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 3% 0;
+    color: hsl(238, 29%, 16%);
+}
+
+h2:hover {
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+
+h2,
+p {
+    font-size: 12px;
+}
+
+p {
+    margin-right: 5%;
+    display: none;
+}
+
+hr {
+    border: 0.5px solid hsl(240, 5%, 91%);
+}
+
+body {
+    background-image: linear-gradient(180deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 60%;
+    margin: 5% auto;
+    border-radius: 5%;
+    background-color: white;
+    border: 2px solid black;
+    position: relative;
+    display: table;
+}
+
+.illustrations,
+.faq {
+    float: none;
+    vertical-align: top;
+    display: table-cell;
+    padding: 10% 10% 10% 0;
+}
+
+.illustrations {
+    width: 50%;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+    background-position: 115% 50%;
+    overflow: hidden;
+}
+
+.woman {
+    margin: auto -15%;
+    width: 110%;
+    position: sticky;
+    top: 25%;
+}
+
+.box {
+    position: absolute;
+    top: 44%;
+    left: -11%;
+    width: 22%;
+}
+
+.mobileImg {
+    display: none;
+}
+
+.faq {
+    width: 50%;
+    position: relative;
+}
+
+.quesAns {
+    margin: 5% 0;
+}
+
+.arrowIcon {
+    font-size: 12px;
+    right: 20%;
+    position: absolute;
+    display: block;
+    margin: -7% auto;
+}
+
+
+/* FOR CHANGING CSS */
+
+.notBold {
+    font-weight: 400;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    color: black;
+    margin: 10% auto;
+}
+
+
+/* for responsive */
+
+@media screen and (max-width:1000px) {
+    main {
+        overflow: visible;
+        margin: 20% auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .illustrations {
+        width: 100%;
+        overflow: visible;
+        background-image: none;
+    }
+    .box,
+    .woman {
+        display: none;
+    }
+    .mobileImg {
+        position: static;
+        margin: -63% auto;
+        padding: 15%;
+        background-image: url(images/bg-pattern-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 92%;
+        background-size: 77%;
+        display: block;
+        width: 112%;
+    }
+    .faq {
+        width: 100%;
+        padding: 20% 10% 10%;
+        margin: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    .arrowIcon {
+        right: 10%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    main {
+        width: 90%;
+        margin: 40% 5% 0;
+    }
+}
