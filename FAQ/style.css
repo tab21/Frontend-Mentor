@@ -21,7 +21,7 @@ h2 {
     color: hsl(238, 29%, 16%);
 }
 
-h2:hover {
+h2:hover ,i{
     color: hsl(14, 88%, 65%);
     cursor: pointer;
 }
