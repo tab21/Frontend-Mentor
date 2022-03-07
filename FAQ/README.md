@@ -10,11 +10,8 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -38,11 +35,11 @@ Users should be able to:
 
 - Mobile Preview
 
-![Mobile SS](images/mobileSS.png){width=50%}
+<img src="images/mobileSS.png" width="50%">
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/responsive-faq-accordation-using-jvascript-jquery-J33AEszcx)
 - Live Site URL: [live site URL here](https://tab21.github.io/Frontend-Mentor/FAQ/index.html)
 
 ## My process
