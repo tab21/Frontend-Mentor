@@ -6,7 +6,6 @@
 }
 
 body {
-    min-height: 100vh;
     padding: 0;
     margin: 0;
 }
@@ -21,7 +20,8 @@ h2 {
     color: hsl(238, 29%, 16%);
 }
 
-h2:hover ,i{
+h2:hover,
+i {
     color: hsl(14, 88%, 65%);
     cursor: pointer;
 }
@@ -47,7 +47,7 @@ body {
 
 main {
     width: 60%;
-    margin: 5% auto;
+    margin: 7% auto;
     border-radius: 5%;
     background-color: white;
     border: 2px solid black;
@@ -122,9 +122,9 @@ main {
 /* FOOTER */
 
 footer {
+    width: 100%;
     text-align: center;
     color: black;
-    margin: 10% auto;
 }
 
 
