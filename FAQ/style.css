@@ -127,6 +127,10 @@ footer {
     color: black;
 }
 
+footer p {
+    margin: 0;
+}
+
 
 /* for responsive */
 
