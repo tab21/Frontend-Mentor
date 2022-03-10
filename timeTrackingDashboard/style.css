@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    transition: .5s ease;
+}
+
+body {
+    background-color: hsl(226, 43%, 10%);
+    width: 100%;
+    height: 100%;
+}
+
+
+/* fonts */
+
+p {
+    color: hsl(236, 100%, 87%);
+    margin: 5% 0 5%;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+b {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 15%;
+}
+
+h1,
+b,
+.active,
+.change p:hover,
+a {
+    color: white;
+    font-weight: 300;
+}
+
+.change p {
+    font-weight: 400;
+}
+
+
+/* main tracking dashboard */
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(2, 250px);
+    width: 80%;
+    margin: 5% auto;
+    justify-content: center;
+}
+
+.profile {
+    background-color: hsl(235, 46%, 20%);
+    margin: 10px;
+    grid-row: 1/3;
+}
+
+.name {
+    background-color: hsl(246, 80%, 60%);
+    height: 70%;
+    padding: 10%;
+}
+
+.jeremy {
+    padding: 15% 0;
+}
+
+.change {
+    display: flex;
+    padding: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#work {
+    background-color: hsl(15, 100%, 70%);
+}
+
+#play {
+    background-color: hsl(195, 74%, 62%);
+}
+
+#study {
+    background-color: hsl(348, 100%, 68%);
+}
+
+#exercise {
+    background-color: hsl(145, 58%, 55%);
+}
+
+#social {
+    background-color: hsl(264, 64%, 52%);
+}
+
+#selfCare {
+    background-color: hsl(43, 84%, 65%);
+}
+
+.time {
+    padding: 10%;
+    height: 80%;
+    width: 100%;
+    background-color: hsl(235, 46%, 20%);
+    bottom: 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+.time:hover {
+    background-color: hsl(235, 45%, 61%);
+}
+
+.profile,
+.name,
+.change,
+.container,
+.time {
+    border-radius: 5%;
+}
+
+
+/* images */
+
+.icon img {
+    width: 35%;
+    height: 35%;
+    float: right;
+    margin: -4% 10%;
+}
+
+.dots img {
+    float: right;
+    margin: -22% 3px;
+}
+
+.name img {
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.time:hover,
+.dots:hover,
+.change p:hover {
+    cursor: pointer;
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+    width: 100%;
+}
+
+.attribution {
+    margin: 0;
+}
+
+
+/* responsive */
+
+@media screen and (max-width:1000px) {
+    p {
+        font-size: 14px;
+    }
+    h1,
+    b {
+        font-size: 18px;
+    }
+    h2 {
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+    main {
+        grid-template-columns: 250px;
+        grid-template-rows: repeat(7, 150px);
+    }
+    .profile {
+        grid-row: 1;
+    }
+    .name {
+        display: flex;
+        align-content: center;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10% 5%;
+    }
+    .jeremy {
+        padding: 0;
+    }
+    .change {
+        padding: 0;
+        flex-wrap: wrap;
+        align-content: center;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .time {
+        padding: 10%;
+        height: 75%;
+    }
+    .hrs {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .dots img {
+        margin: -6% 3px;
+    }
+}

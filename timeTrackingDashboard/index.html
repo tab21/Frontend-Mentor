@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+
+<body>
+    <main>
+        <div class="profile">
+            <div class="name">
+                <img src="images/image-jeremy.png" alt="profile image">
+                <div class="jeremy">
+                    <p>Report for</p>
+                    <h1>Jeremy Robson</h1>
+                </div>
+            </div>
+            <div class="change">
+                <p id="daily" class="active">Daily</p>
+                <p id="weekly">Weekly</p>
+                <p id="monthly">Monthly</p>
+            </div>
+        </div>
+        <div id="work" class="container">
+            <i class="icon"><img src="images/icon-work.svg" alt="work icon"></i>
+            <div class="time">
+                <h2>Work</h2>
+                <i class="dots"><img src="images/icon-ellipsis.svg" alt="3 dots icon"></i>
+                <div class="hrs">
+                    <b><span>5</span>hrs</b>
+                    <p>Last <span> day - 7</span>hrs</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="play" class="container">
+            <i class="icon"><img src="images/icon-play.svg" alt="play icon"></i>
+            <div class="time">
+                <h2> Play </h2>
+                <i class="dots"><img src="images/icon-ellipsis.svg" alt="3 dots icon"></i>
+                <div class="hrs">
+                    <b><span>1</span>hrs</b>
+                    <p>Last <span> day - 2</span>hrs</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="study" class="container">
+            <i class="icon"><img src="images/icon-study.svg" alt="study icon"></i>
+            <div class="time">
+                <h2>Study</h2>
+                <i class="dots"><img src="images/icon-ellipsis.svg" alt="3 dots icon"></i>
+                <div class="hrs">
+                    <b><span>0</span>hrs</b>
+                    <p>Last <span> day - 1</span>hrs</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="exercise" class="container">
+            <i class="icon"><img src="images/icon-exercise.svg" alt="exercise icon"></i>
+            <div class="time">
+                <h2>Exercise </h2>
+                <i class="dots"><img src="images/icon-ellipsis.svg" alt="3 dots icon"></i>
+                <div class="hrs">
+                    <b><span>1</span>hrs</b>
+                    <p>Last <span> day - 1</span>hrs</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="social" class="container">
+            <i class="icon"><img src="images/icon-social.svg" alt="social icon"></i>
+            <div class="time">
+                <h2>Social</h2>
+                <i class="dots"><img src="images/icon-ellipsis.svg" alt="3 dots icon"></i>
+                <div class="hrs">
+                    <b><span>1</span>hrs</b>
+                    <p>Last <span> day - 3</span>hrs</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="selfCare" class="container">
+            <i class="icon"><img src="images/icon-self-care.svg" alt="self care icon"></i>
+            <div class="time">
+                <h2>Self Care</h2>
+                <i class="dots"><img src="images/icon-ellipsis.svg" alt="3 dots icon"></i>
+                <div class="hrs">
+                    <b><span>0</span>hrs</b>
+                    <p>Last <span>day - 1</span>hrs</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="attribution"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+                Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/tab21" target="_blank">Tab21</a> |10|. </p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
