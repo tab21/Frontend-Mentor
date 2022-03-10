@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/time-tracking-dashboard-using-css-grid-XxKJh2CqQ)
+- Live Site URL: [live site URL here](https://tab21.github.io/Frontend-Mentor/timeTrackingDashboard/index.html)
 
 ## My process
 
