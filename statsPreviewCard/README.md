@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub/respondive-stats-card-with-css-flex-Yv9fAQNJ5)
+- Live Site URL: [live site URL here](https://tab21.github.io/Frontend-Mentor/statsPreviewCard/index.html)
 
 ## My process
 
