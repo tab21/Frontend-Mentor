@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: ease 1s;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h1,
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+P {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+
+/* main body of the preview card */
+
+main {
+    display: flex;
+    margin: 10% 15%;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+.card {
+    background-color: hsl(244, 38%, 16%);
+    padding: 5%;
+    width: 50%;
+}
+
+.card p {
+    margin: 10% 5% 20% 0;
+    font-weight: 400;
+    font-family: 'Inter', 'sans-serif';
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-right: 10%;
+}
+
+section p {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+
+/* image in the preview  */
+
+.image {
+    width: 50%;
+    background-image: url(images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: hsla(277, 64%, 61%, 0.4);
+    background-blend-mode: overlay;
+    min-height: 330px;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 0.3);
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 28px
+    }
+    main {
+        margin: 5%;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .card,
+    .image {
+        width: 100%;
+        padding: 10%;
+    }
+    .stats {
+        margin-right: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card p {
+        margin: 10% 0 20%;
+    }
+    .image {
+        background-image: url(images/image-header-mobile.jpg);
+    }
+}
