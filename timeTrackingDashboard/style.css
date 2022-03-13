@@ -53,9 +53,9 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 250px);
     grid-template-rows: repeat(2, 250px);
-    width: 80%;
-    margin: 5% auto;
     justify-content: center;
+    min-height: 100vh;
+    place-content: center
 }
 
 .profile {
