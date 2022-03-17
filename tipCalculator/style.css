@@ -1,0 +1,225 @@
+* {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: hsl(185, 41%, 84%)
+}
+
+
+/* header for logo */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    margin-top: 7%;
+}
+
+
+/* main tip calculator */
+
+main {
+    display: flex;
+    background: white;
+    padding: 2%;
+    width: 900px;
+    margin: 5% auto;
+    border-radius: 10px;
+}
+
+
+/* container for filling details */
+
+.container {
+    width: 50%;
+    padding: 2% 7% 2% 2%;
+    position: relative;
+}
+
+label {
+    color: hsl(186, 14%, 43%);
+    font-size: 12px;
+    margin: 2% 0;
+}
+
+.icon {
+    margin: 2% 2%;
+    position: absolute;
+}
+
+input {
+    width: 100%;
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    font-size: 24px;
+    text-align: right;
+    margin: 2% 0;
+    background-repeat: no-repeat;
+    background-position: 15px;
+    color: hsl(186, 14%, 43%);
+    padding: 2%;
+}
+
+input:hover,
+input:focus {
+    border: 4px solid hsl(185, 41%, 84%);
+    background-color: hsl(189, 41%, 97%);
+    outline: none;
+}
+
+input::placeholder {
+    color: hsl(184, 14%, 56%);
+}
+
+#total {
+    background-image: url(images/icon-dollar.svg);
+}
+
+#people {
+    background-image: url(images/icon-person.svg);
+}
+
+.tipButton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tip {
+    width: 30%;
+    justify-content: space-between;
+    background-color: hsl(183, 100%, 15%);
+    border: none;
+    border-radius: 4%;
+    padding: 2%;
+    margin: 2% 0;
+    color: white;
+    font-size: 24px;
+}
+
+.tip:hover {
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+}
+
+.custom {
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(184, 14%, 56%);
+    font-size: 20px;
+    text-align: center;
+}
+
+button[type=reset],
+.active {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+.error {
+    border: 4px solid rgb(221, 12, 82);
+}
+
+.err {
+    color: rgb(221, 12, 82);
+    font-size: 12px;
+    position: absolute;
+    margin: 1%;
+    right: 15%;
+    display: none;
+}
+
+
+/* calculate for displaying after calculation */
+
+.calculate {
+    width: 50%;
+    padding: 5%;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 2%;
+    position: relative;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.identity {
+    font-size: 12px;
+}
+
+b {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(184, 14%, 56%);
+}
+
+.number {
+    text-align: right;
+    font-size: 36px;
+    color: hsl(172, 67%, 45%);
+}
+
+button[type=reset] {
+    border: none;
+    padding: 2%;
+    width: 80%;
+    font-size: 24px;
+    position: absolute;
+    bottom: 10%;
+    margin: auto;
+    border-radius: 2%;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* resposive */
+
+@media screen and (max-width:900px) {
+    body {
+        padding: 0 10%;
+    }
+    main {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .container,
+    .calculate {
+        width: 100%;
+    }
+    .tip {
+        width: 47%;
+    }
+    button[type=reset] {
+        position: initial;
+        width: 100%;
+        margin-top: 2%;
+    }
+    .err {
+        right: 10%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    body {
+        padding: 0;
+    }
+}

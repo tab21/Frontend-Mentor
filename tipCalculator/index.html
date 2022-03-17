@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Frontend Mentor | Tip calculator app</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="logo">
+    </header>
+    <main>
+
+        <div class="container">
+            <label>Bill</label>
+            <span class="err" id="billError"> Can't be less than 0 </span>
+            <input type="number" name="total" id="total" min="0" placeholder="0">
+
+            <label>Select Tip %</label>
+            <div class="tipButton">
+                <button value="5" class="tip">5%</button>
+                <button value="10" class="tip">10%</button>
+                <button value="15" class="tip">15%</button>
+                <button value="25" class="tip">25%</button>
+                <button value="50" class="tip">50%</button>
+                <input class="tip custom" placeholder="Custom" min="0" type="number">
+            </div>
+            <label>Number of People</label>
+            <span class="err" id="peopleError"> Can't be less than 0 </span>
+            <span class="err" id="peopleZeroError"> Can't be zero </span>
+            <input type="number" name="people" id="people" min="1" placeholder="1">
+
+        </div>
+        <div class="calculate">
+            <section>
+                <div class="identity">
+                    <b>Tip Amount</b>
+                    <p>/ person</p>
+                </div>
+                <div class="number">
+                    $<span id="tipAmount">0.00</span>
+                </div>
+            </section>
+            <section>
+                <div class="identity">
+                    <b>Total</b>
+                    <p>/ person</p>
+                </div>
+                <div class="number">
+                    $<span id="totalAmount">0.00</span>
+                </div>
+            </section>
+
+            <button type="reset">Reset</button>
+
+        </div>
+    </main>
+
+    <footer>
+        <p class="attribution"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/tab21" target="_blank">Tab21</a> |10|. </p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
