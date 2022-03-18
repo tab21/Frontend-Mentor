@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/tip-calculator-using-javascript-RHFJUPCSm)
 - Live Site URL: [live site URL here](https://tab21.github.io/Frontend-Mentor/tipCalculator/index.html)
 
 ## My process
