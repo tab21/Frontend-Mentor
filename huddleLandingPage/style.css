@@ -47,7 +47,7 @@
     /* header section */
     
     header {
-        padding: 5% 7%;
+        padding: 5% 7% .5%;
         background-image: url(images/bg-hero-desktop.svg);
         background-color: hsl(193, 100%, 96%);
     }
@@ -125,7 +125,7 @@
         justify-content: space-between;
         align-items: center;
         box-shadow: 0px 0px 20px 0px hsl(208deg 11% 55%);
-        padding: 7% 5% 7% 15%;
+        padding: 3% 5% 3% 15%;
         border-radius: 30px;
         flex-wrap: wrap;
     }
