@@ -1,100 +1,102 @@
-body{ 
-	font-family: 'Red Hat Display', sans-serif;
+body {
+	font-family: "Red Hat Display", sans-serif;
 	text-align: center;
 	font-weight: 500;
-	background-color: hsl(225, 100%, 94%);	
+	background-color: hsl(225, 100%, 94%);
 }
-p{
+p {
 	margin-top: 0;
 	font-size: 16px;
 	padding: 0 1.2rem;
 	line-height: 1.5;
 }
 
-h1{
+h1 {
 	color: hsl(223, 47%, 23%);
 	font-weight: 900;
 	margin-top: 0;
 }
-span{
+span {
 	display: block;
 	color: hsl(223, 47%, 23%);
 	font-weight: 900;
 }
 
-a{
+a {
 	font-weight: 700;
 	display: block;
 }
-@media (max-width:650px){
-    body{
-	background-image: url("images/pattern-background-mobile.svg");                     
-    background-repeat: no-repeat; 
-	background-size: contain;
-  	background-position: top;
-}
+@media (max-width: 650px) {
+	body {
+		background-image: url("images/pattern-background-mobile.svg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: top;
+		background-color: hsl(225, 100%, 94%);
+	}
 }
 
 @media screen and (min-width: 650px) {
-body {
-  	background-image: url('./images/pattern-background-desktop.svg');
-  	background-size: contain;
-  	background-position: top;
-	background-repeat: no-repeat; 
-  }
+	body {
+		background-image: url("./images/pattern-background-desktop.svg");
+		background-size: contain;
+		background-position: top;
+		background-repeat: no-repeat;
+		background-color: hsl(225, 100%, 94%);
+	}
 }
 
-.workplace{
+.workplace {
 	background-color: white;
-	max-width:375px;
-	border-radius:15px;
-	margin: auto;	
+	max-width: 375px;
+	border-radius: 15px;
+	margin: auto;
 }
-.illustration-hero{
+.illustration-hero {
 	width: 100%;
-	border-radius:1rem 1rem 0 0;
+	border-radius: 1rem 1rem 0 0;
 }
-.main{
-	padding:2rem 2rem 0;
+.main {
+	padding: 2rem 2rem 0;
 }
-.annual-plan{
+.annual-plan {
 	background-color: hsl(225, 100%, 98%);
-	border-radius:15px;
+	border-radius: 15px;
 	padding: 1.3rem;
 	display: flex;
-	justify-content:space-between;
+	justify-content: space-between;
 	align-items: center;
 	margin: 1.5rem 0;
 	line-height: 0.5;
 }
-.write{
-	margin:0 0.5rem;
+.write {
+	margin: 0 0.5rem;
 }
-.change{
+.change {
 	color: hsl(245, 75%, 52%);
-	padding:1rem
+	padding: 1rem;
 }
-.change:hover{
-	color: hsl(224, 23%, 55%)
+.change:hover {
+	color: hsl(224, 23%, 55%);
 }
-.payment{
+.payment {
 	color: hsl(225, 100%, 98%);
-	background:  hsl(245, 75%, 52%);
+	background: hsl(245, 75%, 52%);
 	padding: 0.625rem;
 	border-radius: 10px;
 	text-decoration: none;
 }
-.payment:hover{
-	background-color: hsl(224, 23%, 55%); 
+.payment:hover {
+	background-color: hsl(224, 23%, 55%);
 }
-.cancel{
-	color:hsl(224, 23%, 55%);
+.cancel {
+	color: hsl(224, 23%, 55%);
 	text-decoration: none;
-	padding:1.25rem;
+	padding: 1.25rem;
 }
-.cancel:hover{
+.cancel:hover {
 	color: hsl(223, 47%, 23%);
 }
-.attribution{
+.attribution {
 	margin: 1.25rem;
 }
